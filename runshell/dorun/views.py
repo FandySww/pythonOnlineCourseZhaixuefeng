@@ -94,7 +94,8 @@ def indexOnlinelocal(request):
     except:
         return HttpResponse("无法启动线程")
     else:
-        return HttpResponse("操作成功，运行信息请咨询数据同学")
+        result = getJsonForResponse('1', '操作成功，运行信息请咨询数据同学')
+        return HttpResponse(json.dumps(result), content_type="application/json")
 
 class ResultEntity:
     def __init__(self, status, result):

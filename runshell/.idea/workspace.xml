@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d4a54a-220c-4f3b-b799-d73662f1af7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dorun/loadLog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/log/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/70515972-736d-43f3-9d99-1a4fa9651507.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/70515972-736d-43f3-9d99-1a4fa9651507.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dorun/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dorun/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dorun/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dorun/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dorun/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/dorun/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dorun/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dorun/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dorun/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dorun/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runshell/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/runshell/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runshell/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/runshell/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runshell/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/runshell/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tests">
+  <component name="RunManager" selected="Django server.runshell">
     <configuration name="loadLog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="runshell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,7 +259,7 @@
       <workItem from="1609752864972" duration="564000" />
       <workItem from="1609753591852" duration="811000" />
       <workItem from="1609754554319" duration="122000" />
-      <workItem from="1609754695238" duration="7714000" />
+      <workItem from="1609754695238" duration="8012000" />
     </task>
     <servers />
   </component>
