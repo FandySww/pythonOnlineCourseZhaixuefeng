@@ -1,0 +1,26 @@
+1
+1234
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/flink/flink-riskctrl-1.11.2/lib/log4j-slf4j-impl-2.12.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/matrix/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2020-12-07 16:29:13,237 INFO  org.apache.hadoop.security.UserGroupInformation              [] - Login successful for user riskctrl/server115-ke.mars.ljnode.com@HADOOP.COM using keytab file /etc/.keytab/riskctrl_server115-ke.mars.ljnode.com.keytab
+2020-12-07 16:29:13,319 WARN  org.apache.flink.yarn.configuration.YarnLogConfigUtil        [] - The configuration directory ('/home/flink/flink-riskctrl-1.11.2/conf') already contains a LOG4J config file.If you want to use logback, then please delete or rename the log configuration file.
+2020-12-07 16:29:13,489 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - No path for the flink jar passed. Using the location of class org.apache.flink.yarn.YarnClusterDescriptor to locate the jar
+2020-12-07 16:29:13,569 INFO  org.apache.hadoop.yarn.client.ConfiguredRMFailoverProxyProvider [] - Failing over to rm2
+2020-12-07 16:29:13,670 WARN  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Neither the HADOOP_CONF_DIR nor the YARN_CONF_DIR environment variable is set. The Flink YARN Client needs one of these to be set to properly load the Hadoop configuration for accessing YARN.
+2020-12-07 16:29:13,710 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Cluster specification: ClusterSpecification{masterMemoryMB=8192, taskManagerMemoryMB=12288, slotsPerTaskManager=4}
+2020-12-07 16:29:14,119 WARN  org.apache.hadoop.hdfs.shortcircuit.DomainSocketFactory      [] - The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+2020-12-07 16:29:18,760 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Adding keytab /etc/.keytab/riskctrl_server115-ke.mars.ljnode.com.keytab to the AM container local resource bucket
+2020-12-07 16:29:18,870 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Adding delegation token to the AM container.
+2020-12-07 16:29:18,886 INFO  org.apache.hadoop.hdfs.DFSClient                             [] - Created HDFS_DELEGATION_TOKEN token 19636346 for riskctrl on ha-hdfs:ns-fed
+2020-12-07 16:29:18,901 INFO  org.apache.hadoop.mapreduce.security.TokenCache              [] - Got dt for hdfs://ns-fed; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:ns-fed, Ident: (HDFS_DELEGATION_TOKEN token 19636346 for riskctrl)
+2020-12-07 16:29:18,902 INFO  org.apache.flink.yarn.Utils                                  [] - Attempting to obtain Kerberos security token for HBase
+2020-12-07 16:29:18,902 INFO  org.apache.flink.yarn.Utils                                  [] - HBase is not available (not packaged with this application): ClassNotFoundException : "org.apache.hadoop.hbase.HBaseConfiguration".
+2020-12-07 16:29:18,907 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Submitting application master application_1600493305310_11918825
+2020-12-07 16:29:19,141 INFO  org.apache.hadoop.yarn.client.api.impl.YarnClientImpl        [] - Submitted application application_1600493305310_11918825
+2020-12-07 16:29:19,141 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Waiting for the cluster to be allocated
+2020-12-07 16:29:19,145 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Deploying cluster, current state ACCEPTED
+2020-12-07 16:29:53,715 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - YARN application has been deployed successfully.
+2020-12-07 16:29:53,716 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Found Web Interface jx-bd-hadoop235.zeus.lianjia.com:37591 of application 'application_1600493305310_11918825'.

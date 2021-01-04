@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.urls import include
-
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 import dorun
 
 """
@@ -41,3 +41,4 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^dorun/', include('dorun.urls'))
 ]
+urlpatterns += staticfiles_urlpatterns()
